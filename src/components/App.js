@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <div id="main">
-      <form>
+      <form method='post' >
         <label htmlFor='name'>Name</label>
         <input id="name" type={"text"} />
 
