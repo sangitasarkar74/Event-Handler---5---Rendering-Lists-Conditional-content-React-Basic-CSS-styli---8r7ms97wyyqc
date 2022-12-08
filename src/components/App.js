@@ -11,11 +11,12 @@ const App = () => {
 
         <br />
         <br />
-        <button type='submit'>Submit</button>
+        <button type='submit' onClick={() => {
+          console.log("form submitted");
+        }}>Submit</button>
       </form>
     </div>
   )
 }
-
 
 export default App;
